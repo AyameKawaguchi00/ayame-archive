@@ -1,20 +1,20 @@
-//******SCELTA PERSONAGGIO********//
+//******RANDOMIZE CHARACTER********//
 
-//inizializzo l'array delle immagini dei personaggi
+//array with the pictures of the characters
 let picsArray = [];
-//creo variabili delle immagini e le inserisco nell'array
-//uso la notazione HTML perché JavaScript converte automaticamente in stringa con la funzione .innerHTML
-let crash = "<img src='images/crash.png' class='personaggio'>"
+
+//elements of the array
+let crash = "<img src='https://orig13.deviantart.net/8ea1/f/2014/024/1/3/crash_twinsanity_render__crash___png___3_by_jerimiahisaiah-d73kvxj.png' class='personaggio'>"
 picsArray.push(crash);
-let coco = "<img src='images/coco.png' class='personaggio'>";
+let coco = "<img src='https://vignette.wikia.nocookie.net/crashban/images/9/92/Coco_Crash_Nitro_Kart.png/revision/latest?cb=20190423052911' class='personaggio'>";
 picsArray.push(coco);
-let cortex = "<img src='images/cortex.png' class='personaggio'>";
+let cortex = "<img src='https://i.pinimg.com/originals/f8/b8/0b/f8b80b2ecd5059d9a7a7ca67994106a8.png' class='personaggio'>";
 picsArray.push(cortex);
-let nina = "<img src='images/nina.png' class='personaggio'>";
+let nina = "<img src='https://vignette.wikia.nocookie.net/crashban/images/e/e9/Crash_Twinsanity_Nina_Cortex.png/revision/latest?cb=20160914050732' class='personaggio'>";
 picsArray.push(nina);
-let pura = "<img src='images/pura.png' class='personaggio'>";
+let pura = "<img src='https://vignette.wikia.nocookie.net/p__/images/4/45/Pura_CB.png/revision/latest/scale-to-width-down/340?cb=20170605173246&path-prefix=protagonist' class='personaggio'>";
 picsArray.push(pura);
-let polar = "<img src='images/polar.png' class='personaggio'>";
+let polar = "<img src='https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c80e821-184f-4aca-9a79-ca8d020e510c/da1pytu-a68f4c33-d17e-4a0b-b039-f544a5b743d0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljODBlODIxLTE4NGYtNGFjYS05YTc5LWNhOGQwMjBlNTEwY1wvZGExcHl0dS1hNjhmNGMzMy1kMTdlLTRhMGItYjAzOS1mNTQ0YTViNzQzZDAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.TfUVH_ftwCU3IY_E-Ec7cIW7hSvUpQOsZSklO1IMCQM' class='personaggio'>";
 picsArray.push(polar);
 let ngin = "<img src='https://vignette.wikia.nocookie.net/crashban/images/0/0a/Crash_Bandicoot_2_Cortex_Strikes_Back_Doctor_N._Gin.png/revision/latest?cb=20170609224224' class='personaggio'>";
 picsArray.push(ngin);
@@ -24,8 +24,8 @@ let dingodile = "<img src='https://i.imgur.com/z9g2QqE.png' class='personaggio'>
 picsArray.push(dingodile);
 let tiny = "<img src='https://vignette.wikia.nocookie.net/crashban/images/5/51/Crash_2-CTR_Tiny_Tiger.png/revision/latest?cb=20160905103422' class='personaggio'>";
 picsArray.push(tiny);
-let coca = "<img src='https://vignette.wikia.nocookie.net/crashban/images/3/3d/Koala_Kong_Crash_1.png/revision/latest?cb=20160820211120' class='personaggio'>";
-picsArray.push(coca);
+let kong = "<img src='https://vignette.wikia.nocookie.net/crashban/images/3/3d/Koala_Kong_Crash_1.png/revision/latest?cb=20160820211120' class='personaggio'>";
+picsArray.push(kong);
 let pasadena = "<img src='https://vignette.wikia.nocookie.net/crashban/images/7/74/PasadenaCTTRRender.png/revision/latest?cb=20190608184628' class='personaggio'>";
 picsArray.push(pasadena);
 let oxide = "<img src='https://vignette.wikia.nocookie.net/crashban/images/5/5c/Crash_Team_Racing_Nitros_Oxide_Podium.png/revision/latest?cb=20161222022206' class='personaggio'>";
@@ -36,17 +36,16 @@ let roo = "<img src='https://www.pngkey.com/png/full/724-7240026_ripper-roo.png'
 picsArray.push(roo);
 let ntropy = "<img src='https://i.imgur.com/h2hUkoC.png' class='personaggio'>";
 picsArray.push(ntropy);
-let pissi = "<img src='https://vignette.wikia.nocookie.net/crash-bandicoot-wiki/images/8/8e/Crash_1_Pinstripe.png/revision/latest?cb=20190426201506' class='personaggio'>";
-picsArray.push(pissi);
+let pinstripe = "<img src='https://vignette.wikia.nocookie.net/crash-bandicoot-wiki/images/8/8e/Crash_1_Pinstripe.png/revision/latest?cb=20190426201506' class='personaggio'>";
+picsArray.push(pinstripe);
 let tawna = "<img src='https://vignette.wikia.nocookie.net/crashban/images/e/ef/Crash_1_Tawna.png/revision/latest?cb=20160820230611' class='personaggio'>";
 picsArray.push(tawna);
-let  = "<img src='' class='personaggio'>";
-picsArray.push();
-//inizializzo l'array delle immagini uscite da usare più tardi
+
+//array which will contain the random image that comes out
 let imgArrayUsciti = []; 
 
 
-//funzione choosePic che estrae un'immagine a caso dall'array di immagini
+//function that takes a random image from the picsArray
 function choosePic() {
 	var randomNum = Math.floor(Math.random() * picsArray.length);
 	document.getElementById("chara").src = picsArray[randomNum];
@@ -54,15 +53,15 @@ function choosePic() {
 	return document.getElementById("chara").src = picsArray[randomNum];
 }
 
-//funzione scopriImg che prende come argomento la classe dell'oggetto HTML dove si vuole far apparire l'immagine
-//serve a far apparire l'immagine generata dalla funzione choosePic()
+
+//function that makes the random picture appear in a div
 const scopriImg = classeDiv => {
 	let div = document.querySelector(classeDiv);
 	let character = choosePic();
 	div.innerHTML = character;
 }
 
-//funzione da applicare nel codice HTML che unisce choosePic e scopriImg
+//function that is to be applied to the HTML code which unites the two previous functions
 const generaImg = () => {
 	return scopriImg('.chara');
 }
@@ -71,7 +70,7 @@ const generaImg = () => {
 //------------------------------------------------------------------------------------------
 
 
-//*****SCELTA AMBIENTE*****//
+//*****RANDOM AREA*****//
 
 
 let locationArray = [];
@@ -135,7 +134,7 @@ const generaLoc = () => {
 //------------------------------------------------------------------------------------------
 
 
-//*****SCELTA NEMICI*****//
+//*****RANDOM ENEMIES*****//
 
 let enemiesArray = [];
 
@@ -197,16 +196,6 @@ enemiesArray.push(foca);
 let enemiesArrayUsciti = []; 
 
 
-//non funziona --> ripetuta nello script
-function chooseEnemy() {
-	var randomNum = Math.floor(Math.random() * enemiesArray.length);
-	document.getElementById("enemies").src = enemiesArray[randomNum];
-	enemiesArrayUsciti.push(document.getElementById("enemies").src = enemiesArray[randomNum]);
-	return document.getElementById("enemies").src = enemiesArray[randomNum];
-}
-//lasciare comunque
-
-
 const scopriEnemy1 = classeDiv => {
 	let div = document.querySelector(classeDiv);
 	let enemy = chooseEnemy1();
@@ -237,7 +226,7 @@ const generaEnemy3 = () => {
 //------------------------------------------------------------------------------------------
 
 
-//*****SCELTA AMBIENTE*****//
+//*****RANDOM GEM*****//
 
 
 let gemArray = [];
