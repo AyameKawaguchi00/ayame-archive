@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="main.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Crash Bandicoot game</title>
+</head>
+<body>
+    <main>
+        <h1>Create your Crash Bandicoot level</h1>
+        <div class="rules">
+            <h2 style="font-size: 22px;">With this application, you can create a random Crash Bandicoot level! 
+            <br> Press on the various buttons to generate the character you'll be playing as, <br>
+                the area you'll be playing in, the enemies contained in that area and the gem
+                you'll win at the end.</h2>
+        </div>
+        
+        <br><br><br>
+
+        <!--SCELTA PERSONAGGIO-->
+        <div class="scelta-personaggio divselector">
+            <h2>Playable character</h2>
+            <form class="button"> 
+                <input type="button" value="Randomize" onclick="generaImg()" class="button">
+            </form>
+        <br><br><br>
+            <div class="chara" id="chara">
+                <img src="https://i.ya-webdesign.com/images/crash-bandicoot-crate-png-4.png" class="default">
+            </div>
+        <br><br>
+        </div>
+        
+        <br><br><br>
+
+        <!--SCELTA AMBIENTAZIONE-->
+        <div class="scelta-ambientazione divselector">
+            <h2>Location</h2>
+            <form class="button">
+                <input type="button" value="Randomize" onclick="generaLoc()" class="button">
+            </form>
+        <br><br><br>
+            <div class="location" id="location">
+                <img src="https://i.ya-webdesign.com/images/crash-bandicoot-crate-png-4.png" class="default">
+            </div>
+        <br><br>
+        </div>
+
+       <br><br><br>
+
+        <!--SCELTA NEMICI-->
+        <script>
+            //da inserire perché non funziona
+            function chooseEnemy1() {
+	        var randomNum = Math.floor(Math.random() * enemiesArray.length);
+	        document.getElementById("enemies1").src = enemiesArray[randomNum];
+	        enemiesArrayUsciti.push(document.getElementById("enemies1").src = enemiesArray[randomNum]);
+	        return document.getElementById("enemies1").src = enemiesArray[randomNum];
+            }
+
+            function chooseEnemy2() {
+	        var randomNum = Math.floor(Math.random() * enemiesArray.length);
+	        document.getElementById("enemies2").src = enemiesArray[randomNum];
+	        enemiesArrayUsciti.push(document.getElementById("enemies2").src = enemiesArray[randomNum]);
+	        return document.getElementById("enemies2").src = enemiesArray[randomNum];
+            }   
+
+            function chooseEnemy3() {
+	        var randomNum = Math.floor(Math.random() * enemiesArray.length);
+	        document.getElementById("enemies3").src = enemiesArray[randomNum];
+	        enemiesArrayUsciti.push(document.getElementById("enemies3").src = enemiesArray[randomNum]);
+	        return document.getElementById("enemies3").src = enemiesArray[randomNum];
+            }   
+
+        </script>
+        <div class="scelta-nemici divselector">
+            <h2>Enemies</h2>
+            <form> 
+                <input type="button" value="First enemy" onclick="generaEnemy1()" class="button1">
+                <input type="button" value="Second enemy" onclick="generaEnemy2()" class="button2">
+                <input type="button" value="Third enemy" onclick="generaEnemy3()" class="button3">
+            </form>
+        <br><br><br>
+            <div class="enemies1" id="enemies1">
+                <img src="https://i.ya-webdesign.com/images/crash-bandicoot-crate-png-4.png" class="default">
+            </div>
+            <div class="enemies2" id="enemies2">
+                <img src="https://i.ya-webdesign.com/images/crash-bandicoot-crate-png-4.png" class="default">
+            </div>
+            <div class="enemies3" id="enemies3">
+                <img src="https://i.ya-webdesign.com/images/crash-bandicoot-crate-png-4.png" class="default">
+            </div>
+            
+        <br><br>
+        </div>
+
+        <br><br><br>
+
+        <!--SCELTA GEMMA-->
+        <div class="scelta-gemma  divselector">
+            <h2>Gem</h2>
+            <form class="button">
+                <input type="button" value="Randomize" onclick="generaGem()" class="button">
+            </form>
+        <br><br><br>
+            <div class="gems" id="gems">
+                <img src="https://i.ya-webdesign.com/images/crash-bandicoot-crate-png-4.png" class="default">
+            </div>
+        <br><br>
+        </div>
+    </main>
+
+    <br><br><br><br>
+
+    <form class="button-special" action="./index.html" method="GET">
+        <input type="submit" value="Create another level!" class="button-special">
+    </form>
+
+    <br><br><br><br>
+
+    <footer>
+        <p>Created and developed by Alessia Binci</p>
+    </footer>
+</body>
+</html>

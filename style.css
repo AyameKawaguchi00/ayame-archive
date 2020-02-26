@@ -1,0 +1,162 @@
+body {
+    text-align: center;
+    background-image: url("https://www.crashmania.net/images/encyclopedia/locations/wumpa-island/description.jpg");
+    background-repeat: no-repeat;
+    background-size: 1700px auto;
+    background-attachment: fixed;
+    font-family: "Crash-a-Like";
+}
+
+h1 {
+    color: #dbee2d;
+    filter: drop-shadow(3px 3px rgb(26, 27, 26));
+    font-size: 65px;
+}
+
+/*.rules h2 {
+    font-size: 15px;
+}*/
+
+.divselector h2 {
+    font-size: 30px;
+    color: #cff37c;
+    filter: drop-shadow(2px 2px rgba(26, 27, 26, 0.65));
+}
+
+h3 {
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgba(125, 238, 241, 0.55);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+    border-color: teal;
+    border-style: dotted;
+}
+
+
+.rules {
+    background-color: rgba(125, 238, 241, 0.55);
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    border-color: teal;
+    border-style: dotted;
+}
+
+.scelta-personaggio, .scelta-ambientazione, .scelta-nemici, .scelta-gemma {
+    background-color: rgba(112, 207, 128, 0.5);
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 30px;
+    border-style: double;
+    border-color: yellowgreen;
+}
+
+.default {
+    height: 150px;
+    width: auto;
+}
+
+.personaggio {
+    height: 250px;
+    width: auto;
+    display: inline-flex;
+}
+
+.luogo {
+    height: 300px;
+    width: auto;
+    display: inline-flex;
+}
+
+.nemico {
+    height: 200px;
+    width: auto;
+    display: inline-flex;
+}
+
+.gemma {
+    height: 180px;
+    width: auto;
+    display: inline-flex;
+}
+
+.enemies1, .enemies2, .enemies3 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: inline;
+}
+
+.button {
+    background-color: rgb(186, 226, 94);
+	border: none;
+	color: rgb(50, 58, 13);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: "Crash-a-Like";
+	font-size: 15px;
+    border-radius: 10px;
+    height: 30px;
+	width: auto;
+  	transition: 0.5s;
+}
+
+.button:hover {
+	background-color: rgb(148, 232, 247);
+	color: rgb(37, 78, 131);
+}
+
+
+.button1, .button2, .button3 {
+    background-color: rgb(186, 226, 94);
+	border: none;
+	color: rgb(50, 58, 13);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: "Crash-a-Like";
+	font-size: 15px;
+    border-radius: 10px;
+    height: 30px;
+	width: auto;
+  	transition: 0.5s;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
+	background-color: rgb(148, 232, 247);
+	color: rgb(37, 78, 131);
+}
+
+.button-special {
+    background-color: rgb(186, 226, 94);
+	border: none;
+	color: rgb(50, 58, 13);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: "Crash-a-Like";
+	font-size: 25px;
+    border-radius: 15px;
+    height: 50px;
+	width: auto;
+  	transition: 0.5s;
+}
+
+.button-special:hover {
+    background-color: rgb(148, 232, 247);
+    color: rgb(37, 78, 131);
+}
+
